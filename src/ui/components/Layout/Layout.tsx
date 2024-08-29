@@ -11,8 +11,8 @@ export const Layout: React.FC<LayoutProps> = (props) => {
     }
     return (<>
         <div className={styles.app}>
-            <Header className={styles.header} onToggleSidebar={onToggleSidebar} />
-            <main className={styles.main}>
+            <Header className={`${styles.header}`} onToggleSidebar={onToggleSidebar} />
+            <main className={`${styles.main} container mx-auto`}>
                 {props.children}
             </main>
             <footer className={styles.footer}>

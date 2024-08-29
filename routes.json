@@ -1,0 +1,13 @@
+{
+    "routes": [
+      {
+        "route": "/*",
+        "serve": "/index.html"
+      },
+      {
+        "route": "/lista-libreria/*",
+        "serve": "/index.html"
+      }
+    ]
+  }
+  

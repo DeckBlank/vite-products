@@ -5,7 +5,7 @@
   display: grid;
   width: 250px;
   height: 100vh;
-  background-color: #333;
+  background-color: #0b57d0;
   color: white;
   padding: 20px;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
@@ -28,7 +28,8 @@ li {
   padding: 10px;
 }
 
-/* a {
-  text-decoration: none;
-  color: #333;
-} */
+.link {
+  color:#0c0c0c;
+  font-weight: 500;
+}
+
